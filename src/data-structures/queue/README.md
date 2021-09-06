@@ -4,4 +4,4 @@ In computer science, a queue is a collection of entities that are maintained in 
 
 Representation of a FIFO (first in, first out) queue.
 
-![Queue](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/300px-Data_Queue.svg.png)
+![Queue](https://www.w3schools.in/wp-content/uploads/2016/09/data-structure-queue-1.png?ezimgfmt=ng:webp/ngcb6)
