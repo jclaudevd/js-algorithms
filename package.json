@@ -1,0 +1,19 @@
+{
+  "name": "js-algorithms",
+  "version": "1.0.0",
+  "description": "Algorithms and data structures implemented in JavaScript",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "algorithms",
+    "computer-science",
+    "cs",
+    "data-structures",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "prettier": {
+    "printWidth": 100
+  }
+}
