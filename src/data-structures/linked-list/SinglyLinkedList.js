@@ -12,7 +12,6 @@ class SinglyLinkedList {
     this.length = 0;
   }
 
-  // O(1)
   append(value) {
     const newNode = new Node(value);
     this.length++;
@@ -24,7 +23,6 @@ class SinglyLinkedList {
     this.tail = newNode;
     return this;
   }
-  // O(1)
   prepend(value) {
     const newNode = new Node(value);
     newNode.next = this.head;
@@ -32,7 +30,6 @@ class SinglyLinkedList {
     this.length++;
     return this;
   }
-  // O(n)
   insert(value, index) {
     if (index === 0) return this.prepend(value);
     if (index >= this.length) return this.append(value);
@@ -44,7 +41,6 @@ class SinglyLinkedList {
     this.length++;
     return this;
   }
-  // O(n)
   remove(index) {
     if (index >= this.length) return this;
     this.length--;
@@ -57,7 +53,6 @@ class SinglyLinkedList {
     previousNode.next = nodeForRemoval.next;
     return this;
   }
-  // O(n)
   traverseToIndex(index) {
     let counter = 0;
     let currentNode = this.head;

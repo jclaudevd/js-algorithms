@@ -5,3 +5,12 @@ In computer science, a queue is a collection of entities that are maintained in 
 Representation of a FIFO (first in, first out) queue.
 
 ![Queue](https://www.w3schools.in/wp-content/uploads/2016/09/data-structure-queue-1.png?ezimgfmt=ng:webp/ngcb6)
+
+## Time complexity
+
+| Operation   | Big O |
+| ----------- | ----: |
+| Insertion   |  O(1) |
+| Removal     |  O(1) |
+| Searching   |  O(n) |
+| Access      |  O(n) |

@@ -15,6 +15,15 @@ each other, which makes it easy to take an item off the top
 of the stack, while getting to an item deeper in the stack 
 may require taking off multiple other items first.
 
-Simple representation of a stack runtime with push and pop operations.
+Simple representation of a stack with push and pop operations.
 
 ![Stack](https://upload.wikimedia.org/wikipedia/commons/b/b4/Lifo_stack.png)
+
+## Time complexity
+
+| Operation   | Big O |
+| ----------- | ----: |
+| Insertion   |  O(1) |
+| Removal     |  O(1) |
+| Searching   |  O(n) |
+| Access      |  O(n) |
