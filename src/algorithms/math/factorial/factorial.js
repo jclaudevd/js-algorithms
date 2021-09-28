@@ -6,7 +6,4 @@ const factorial = (num) => {
   return result;
 };
 
-console.log(factorial(5), 120);
-console.log(factorial(7), 5040);
-console.log(factorial(9), 362880);
-console.log(factorial(11), 39916800);
+module.exports = factorial;

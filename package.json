@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Algorithms and data structures implemented in JavaScript",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+  },
   "keywords": [
     "algorithms",
     "computer-science",
@@ -11,9 +13,12 @@
     "data-structures",
     "javascript"
   ],
-  "author": "",
+  "author": "jclaudevd",
   "license": "ISC",
   "prettier": {
     "printWidth": 100
+  },
+  "devDependencies": {
+    "jest": "^27.2.2"
   }
 }
